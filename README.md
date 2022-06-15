@@ -31,9 +31,8 @@ In this project BF_cbc_encrypt, BF_ecb_encrypt, and BF_set_key functions were us
 **The application “caller” code is responsible for subsequently freeing the buffer pointed to by plaintext or ciphertext**
 
 # Usage:
+
 **make**
-clang -g -Wall -O2 fscrypt.c main.c -o exec -lcrypto
-clang -g -Wall -O2 fscrypt2.c main2.c -o exec2 -lcrypto
 
 **./exec "hello world" "top secret"**
 
